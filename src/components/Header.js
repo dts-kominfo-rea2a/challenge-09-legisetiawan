@@ -3,8 +3,11 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <></>
-    )
+        <div id="header">
+        <h1>Call a friend</h1>
+        <p>your friendly contact app</p>
+        </div>
+    );
 }
 
 export default Header;
