@@ -1,50 +1,65 @@
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 35%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 415px;
+    }
+
+    .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
     img {
-        max-width: 100%;
-        vertical-align: middle;
-        height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
     }
-    
+
     .contact-item {
-        clear: both;
-        overflow: hidden;
-        border: rgb(100, 100, 100) solid 1px;
-        padding: 15px;
-        border-radius: 10px;
-        min-width: 300px;
-        width: 60vw;
-        max-width: 750px;
+    clear: both;
+    overflow: hidden;
+    border: rgb(100, 100, 100) solid 1px;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 300px;
+    width: 60vw;
+    max-width: 750px;
     }
-    
+
     .contact-item h3 {
-        line-height: 30px;
-        margin-bottom: 5px;
+    line-height: 30px;
+    margin-bottom: 5px;
     }
-    
+
     .contact-bubble {
-        float: left;
-        padding-right: 20px;
-        width: 125px;
-        height: 125px;
-        object-fit: contain;
+    float: left;
+    padding-right: 20px;
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
     }
-    
+
     .contact-container {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     }
-    
+
     .contact-info {
-        display: flex;
-        flex-direction: column;
-        gap: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
     }
-    
+
     .contact-info .contact-phone {
-        font-size: 16px;
-        font-style: italic;
+    font-size: 16px;
+    font-style: italic;
     }
-    
+
     .contact-info .contact-email {
-        font-size: 14px;
+    font-size: 14px;
     }
