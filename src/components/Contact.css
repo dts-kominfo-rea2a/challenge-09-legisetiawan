@@ -1,5 +1,5 @@
-    .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 35%;
     height: 75%;
     border-radius: 10px;
@@ -7,59 +7,110 @@
     display: flex;
     flex-direction: row;
     margin: 20px 415px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+@media only screen and (max-width: 375px) {
+    .card {
+        margin: 10px 58px;
+        width: 70%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
     }
 
     .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
     img {
-    max-width: 100%;
-    vertical-align: middle;
-    height: auto;
+        border-radius: 50%;
+        width: 40%;
+        height: 40%;
+        padding: 30px 10px;
     }
 
-    .contact-item {
-    clear: both;
-    overflow: hidden;
-    border: rgb(100, 100, 100) solid 1px;
-    padding: 15px;
-    border-radius: 10px;
-    min-width: 300px;
-    width: 60vw;
-    max-width: 750px;
+    .container {
+        padding: 5px;
+        font-size: 12px;
     }
 
-    .contact-item h3 {
-    line-height: 30px;
-    margin-bottom: 5px;
+    h1 {
+        font-size: 14px;
     }
 
-    .contact-bubble {
-    float: left;
-    padding-right: 20px;
-    width: 125px;
-    height: 125px;
-    object-fit: contain;
+    h4 {
+        font: 5px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .card {
+        margin: 10px 50px;
+        width: 70%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
     }
 
-    .contact-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
-    .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
+    img {
+        border-radius: 50%;
+        width: 40%;
+        height: 40%;
+        padding: 30px 10px;
     }
 
-    .contact-info .contact-phone {
-    font-size: 16px;
-    font-style: italic;
+    .container {
+        padding: 7px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:920px) {
+    .card {
+        margin: 10px 275px;
+        width: 40%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
     }
 
-    .contact-info .contact-email {
-    font-size: 14px;
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
+
+    img {
+        border-radius: 50%;
+        width: 30%;
+        height: 30%;
+        padding: 30px 10px;
+    }
+
+    .container {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font: 16px;
+    }
+}
